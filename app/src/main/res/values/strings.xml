@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Ecom App</string>
+    <string name="search_hint">Search products...</string>
+    <string name="filter">Filter</string>
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="remove_from_cart">Remove</string>
+    <string name="proceed_to_checkout">Proceed to Checkout</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="order_history">Order History</string>
+    <string name="logout">Logout</string>
+</resources>
+

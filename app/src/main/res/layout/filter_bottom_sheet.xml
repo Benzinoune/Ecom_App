@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Filter Products"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Price Range"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"/>
+
+    <com.google.android.material.slider.RangeSlider
+        android:id="@+id/priceRangeSlider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:valueFrom="0.0"
+        android:valueTo="1000.0"
+        app:values="@array/initial_slider_values"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Categories"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"/>
+
+    <CheckBox
+        android:id="@+id/categorySneakers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sneakers"/>
+
+    <CheckBox
+        android:id="@+id/categoryRunning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Running Shoes"/>
+
+    <CheckBox
+        android:id="@+id/categoryCasual"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Casual Shoes"/>
+
+    <CheckBox
+        android:id="@+id/categorySports"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sports Shoes"/>
+
+    <Button
+        android:id="@+id/applyFilterButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Apply Filters"
+        android:layout_marginTop="24dp"/>
+
+</LinearLayout>
+
