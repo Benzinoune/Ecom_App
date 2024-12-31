@@ -1,6 +1,5 @@
 package com.example.ecomapp.fragments
 
-
 import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -29,7 +28,7 @@ class ProfileFragment : Fragment() {
         val emailTextView = view.findViewById<TextView>(R.id.emailTextView)
         val logoutButton = view.findViewById<Button>(R.id.logoutButton)
 
-        val user = PreferenceHelper.getUser(requireContext())
+        val user = PreferenceHelper.getLoggedInUser(requireContext())
         nameTextView.text = user?.name ?: ""
         emailTextView.text = user?.email ?: ""
 

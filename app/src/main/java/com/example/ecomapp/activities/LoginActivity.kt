@@ -10,7 +10,6 @@ import androidx.appcompat.app.AppCompatActivity
 import com.abdo.ecomapp.R
 import com.example.ecomapp.utils.PreferenceHelper
 
-
 class LoginActivity : AppCompatActivity() {
     private lateinit var emailEditText: EditText
     private lateinit var passwordEditText: EditText
